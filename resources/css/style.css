@@ -1,0 +1,58 @@
+/* Reset Styles */
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+/* Default Styles */
+  html,
+  body{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+  }
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  div.wrapper{
+    width: 480px;
+    height: auto;
+    margin: 30px auto;
+    overflow: hidden;
+  }
+
+  div.container{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+  }
+/* Header Styles */
+  div.header{
+    padding: 15px 20px;
+    border-bottom: 1px solid #565656;
+  }
+    /* Header-time Styles */
+        #header-time{
+          font-size: 3rem;
+        }
+    /* Header Bottom Styles */
+        span#header-date{
+          color: #39f;
+          font-size: 1.5rem;
+        }
+/* Main Container Styles */
+div.main{
+  padding: 15px 20px;
+}
+
+/* Calendar Heading Styles */
+.calendar-header{
+  display: flex;
+}
+
+.controls{
+  text-align: right;
+  flex-basis: 75%;
+}
