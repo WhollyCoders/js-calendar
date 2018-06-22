@@ -7,7 +7,8 @@
 /* Default Styles */
   html,
   body{
-    font-family: helvetica, arial, sans-serif;
+    /* font-family: helvetica, arial, sans-serif; */
+    font-family: "century gothic", arial, sans-serif;
     font-size: 16px;
   }
 
@@ -18,9 +19,9 @@
 
   div.wrapper{
     width: 480px;
-    height: auto;
+    height: 600px;
     margin: 30px auto;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   div.container{
@@ -28,6 +29,22 @@
     background-color: #333;
     color: #fff;
   }
+
+  .active-cell{
+    background-color: #39f;
+    border: 1px double #fff;
+  }
+
+  .dim-cell{
+    color: #565656;
+  }
+
+  table{
+    margin: 0 auto;
+    font-family: "century gothic", arial, sans-serif;
+    border: 1px solid #565656;
+  }
+
 /* Header Styles */
   div.header{
     padding: 15px 20px;
@@ -44,15 +61,41 @@
         }
 /* Main Container Styles */
 div.main{
-  padding: 15px 20px;
+  padding: 30px 20px 5px 20px;
 }
 
 /* Calendar Heading Styles */
 .calendar-header{
   display: flex;
+  /* height: 45px; */
+}
+
+#calHeader-heading{
+  font-family: monospace;
+  font-size: 1.2rem;
 }
 
 .controls{
-  text-align: right;
-  flex-basis: 75%;
+  display: flex;
+  width: 75px;
+  margin-left: 55%;
+}
+
+.controls a{
+  margin: 0 10px;
+}
+
+.calendarHeader-days{
+  display: inline-block;
+  padding: 10px;
+}
+/* Calendar Styles */
+table tr th, td{
+  padding: 18px;
+  margin: 5px;
+  text-align: center;
+}
+
+.calendar{
+  padding: 0 0 30px 0;
 }
